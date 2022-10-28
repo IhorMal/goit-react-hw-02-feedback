@@ -1,0 +1,35 @@
+.list {
+  display: flex;
+  padding: 0;
+}
+
+.item {
+  margin-right: 20px;
+}
+
+.button {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  height: 40px;
+}
+
+.button:hover {
+  background-color: rgb(64, 255, 46);
+}
+
+.good::before {
+  content: '\1F60A';
+  width: 17px;
+  height: 15px;
+}
+.neutral::before {
+  content: '\1F610';
+}
+
+.bad:before {
+  content: '\1F621';
+}
